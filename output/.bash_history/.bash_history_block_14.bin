@@ -1,0 +1,8 @@
+ su
+ll
+sudo su
+exit
+sudo su
+exit
+crontab -l
+sudo su

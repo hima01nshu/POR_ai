@@ -1,0 +1,6 @@
+sudo su
+ll
+cd brwser/
+ll
+google-chrome --version
+chromedriver --

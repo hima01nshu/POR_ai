@@ -1,0 +1,11 @@
+ear
+ll
+rm -rf *
+ll
+cd ..
+cd /home
+ll
+cd hprajap2/
+ll
+sdo su
+sudo

@@ -1,0 +1,12 @@
+{
+    "input_folder": "/home/ec2-user",
+    "output_folder": "/home/hprajap2/PoR_Scripts/output",
+    "output_folder_hash": "/home/hprajap2/PoR_Scripts/output/hash",
+    "block_size": 64,
+    "challenge_size": 2,
+    "log_file": "/home/hprajap2/PoR_Scripts/process.log",
+    "s3_bucket": "your-s3-bucket-name",
+    "retrieved_file": "/home/hprajap2/PoR_Scripts/retrieved_file.txt",
+    "hash_file": "/home/hprajap2/PoR_Scripts/output/block_hashes.txt"
+}
+

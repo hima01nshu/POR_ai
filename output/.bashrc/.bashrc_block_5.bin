@@ -1,0 +1,4 @@
+t SYSTEMD_PAGER=
+
+# User specific aliases and functions
+if [ -d 

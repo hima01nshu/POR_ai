@@ -1,0 +1,10 @@
+do su
+clea
+clear
+sudo su
+clear
+ll
+cd ..
+ll
+vi sync-script.sh 
+cr

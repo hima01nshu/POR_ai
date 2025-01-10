@@ -1,0 +1,5 @@
+ status firewalld
+yum install mysqld
+yum install @mysql
+clear
+su

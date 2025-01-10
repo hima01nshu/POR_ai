@@ -1,0 +1,3 @@
+" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.loca

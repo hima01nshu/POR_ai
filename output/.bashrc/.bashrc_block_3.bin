@@ -1,0 +1,5 @@
+l/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following

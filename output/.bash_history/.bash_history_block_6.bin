@@ -1,0 +1,5 @@
+ awscli -y
+sudo apt-get update
+sudo yum update
+df -h
+sudo yum in

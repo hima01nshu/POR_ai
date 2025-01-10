@@ -1,0 +1,6 @@
+en
+	. /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH

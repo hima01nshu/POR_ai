@@ -1,0 +1,7 @@
+ ]; then
+			. "$rc"
+		fi
+	done
+fi
+
+unset rc

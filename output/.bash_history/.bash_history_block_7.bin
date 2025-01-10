@@ -1,0 +1,6 @@
+stall aws-cli -y
+sudo su
+sudo root
+su root
+su hprajap2
+systemctl
