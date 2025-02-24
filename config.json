@@ -1,12 +1,15 @@
 {
-    "input_folder": "/home/ec2-user",
-    "output_folder": "/home/hprajap2/PoR_Scripts/output",
-    "output_folder_hash": "/home/hprajap2/PoR_Scripts/output/hash",
+    "input_folder": "/home/ubuntu/POR_Data_Recovery/input/demo1.txt",
+    "output_folder": "/home/ubuntu/POR_Data_Recovery/output",
+    "output_folder_hash": "/home/ubuntu/POR_Data_Recovery/output/hash",
     "block_size": 64,
     "challenge_size": 2,
-    "log_file": "/home/hprajap2/PoR_Scripts/process.log",
-    "s3_bucket": "your-s3-bucket-name",
-    "retrieved_file": "/home/hprajap2/PoR_Scripts/retrieved_file.txt",
-    "hash_file": "/home/hprajap2/PoR_Scripts/output/block_hashes.txt"
+    "log_file": "/home/ubuntu/POR_Data_Recovery/process.log",
+    "s3_bucket": "demo-bucket-1203",
+    "local_directory": "/home/ubuntu/POR_Data_Recovery/PoR_Files",
+    "hash_directory": "/home/ubuntu/POR_Data_Recovery/output/hash",
+    "retrieved_files": "/home/ubuntu/POR_Data_Recovery/retrieved",
+    "hash_files": "/home/ubuntu/POR_Data_Recovery/output/hash",
+    "backup_directory": "/home/ubuntu/POR_Data_Recovery/PoR_Backup"
 }
 

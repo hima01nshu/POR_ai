@@ -4,9 +4,13 @@ import json
 import time
 
 # Configuration
-FILE_PATH = "sample.txt"  
+CONFIG_PATH = "config.json"
+with open(CONFIG_PATH, 'r') as config_file:
+    config = json.load(config_file)
+S3_BUCKET = config["s3_bucket"]
+FILE_PATH = config["input_folder"]  
 BLOCK_SIZE = 64  
-OUTPUT_FOLDER = "output"
+OUTPUT_FOLDER = config["output_folder"]
 HASH_OUTPUT_FOLDER = os.path.join(OUTPUT_FOLDER, "hash")
 METADATA_FILE = os.path.join(OUTPUT_FOLDER, "metadata.json")
 
